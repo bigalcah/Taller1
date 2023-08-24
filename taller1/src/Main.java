@@ -12,11 +12,22 @@ public class Main {
         return num;
     }
 
-    public static boolean validarNumeros(int scanner(), int scanner()){
+    public static boolean validarNumeros(int num1){
+        if ( num1 > 0){
+            return true;
+        }else {
+            return false;
+        }
 
     }
 
-    public static int matriz(){
+    public static int[][] CrearMatriz(int i, int j){
+        int[][] matriz = new int[i][j];
+        return matriz;
+
+    }
+    public static void mostrarFila(int matriz[][], int numFila){
+        for (i = 0; matriz[]){
 
     }
 
